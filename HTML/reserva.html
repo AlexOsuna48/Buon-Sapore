@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Reserva</title>
+  <link rel="stylesheet" href="../CSS/estilreserva.css" type="text/css">
+  <meta name="description" content="Página Web de Restaurante italiano Buon Sapore">
+  <meta name="keywords" content="Restaurante, Italia, Restaurante Italiano, Comida Italiana, comida">
+  <meta name="author" content="Alex Osuna, Raul Olmedo">
+  <meta charset="utf-8">
+  
+  <script type="application/ld+json"> 
+    {
+      "@context": "https://schema.org/", 
+      "@type": "Recipe", 
+      "name": "Buon Sapore",
+      "image": "",
+      "description": "Página Web de Restaurante italiano Buon Sapore",
+      "keywords": "Restaurante, Italia, Restaurante Italiano, Comida Italiana, comida",
+      "author": {
+        "@type": "Person",
+        "name": "Alex Osuna, Raul Olmedo"
+      } 
+    </script>
+    
+</head> 
+<body>
+    <div class="container">
+      <div class="header">
+        <img class="logo" src="../IMAGENES/logo.png" alt="">
+      <ul class="menu">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="carta.html">Carta</a></li>
+        <li><a href="quinessomos.html">Quienes Somos?</a></li>
+        <li><a href="reserva.html">Reserva</a></li>
+      </ul>
+    </div>
+        <form action="formulario.php" method="post">
+            <fieldset>
+                <legend><strong>Datos Personales</strong></legend>
+                <label for="nombre">Nombre*</label> <br>
+                <input type="text" id="nombre" name="nombre" value="" required>
+                <br>
+                <label for="apellidos">Apellidos*</label><br>
+                <input type="text" id="apellidos" name="apellidos" value="" required>
+                <br>
+                <label for="dni">DNI*</label> <br>
+                <input type="text" id="dni" name="dni" value="" size="10" maxlength="9" required>
+                <br>
+                <label for="telefono">Número de telefono*</label><br>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" required>
+                <br>
+                <label for="derechos">He leido y acepto la <a href="politica.html"> política de privacidad</a> de esta página y el uso de mis datos*</label><br>
+                <input type="checkbox" id="derechos" name="derechos" required>
+                
+            </fieldset>
+            <fieldset>
+              <legend><strong>Reserva</strong></legend>
+                <label for="fecha">Dia*</label><br>
+                <input type="date" id="fecha" name="fecha" required>
+                <br>
+                <label for="hora">Hora*</label><br>
+                <input id="hora" type="time" name="hora" required>
+                <br>
+                <label for="personas">Número de Personas*</label><br>
+                <input type="number" id="personas" name="personas" required>
+                
+            </fieldset>
+            <p>
+            <strong>Los campos marcados con * son obligatorios.</strong>
+            </p>
+          
+              <label for="enviar"></label><br>
+              <input type="submit" id="enviar" value="Enviar" >
+              
+              <label for="borrar"></label>
+              <input type="reset" id="borrar" value="Borrar Datos" >
+               
+        </form>
+      
+    </div>
+    
+    
+</body>  
+</html>

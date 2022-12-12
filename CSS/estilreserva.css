@@ -1,0 +1,85 @@
+body { 
+   
+    font-family: arial;
+}
+.container {
+    width: 965px;
+    background: white;
+    margin: auto;
+    border-radius: 25px;
+}
+.logo {
+	height:100px;
+	width:130px;
+}
+.menu {
+    float: right;
+}
+.menu li {
+    display: inline-block;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+.menu a:hover {
+    background: #009efa;
+ }
+form {
+    padding-top: 6%;
+ }
+ #enviar{
+    margin-top: 6%;
+    margin-left: 40%;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1%;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    
+}
+#enviar:hover {
+    background-color: #008CBA;
+    color: white;
+}
+#borrar{
+    margin-left: 2%;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1%;
+    margin-top: 0;  
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+#borrar:hover{
+    background-color: #008CBA;
+    color: white;
+}
+
+
+/*  Para quitar los botenes del input number    */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] { 
+    -moz-appearance:textfield; 
+}
+.footer{
+    overflow: hidden;
+    margin-top: 5px;
+ }
+ .footer a{
+    color: black;
+    text-decoration: none;
+ }
+ .footer span{
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+ }
+
