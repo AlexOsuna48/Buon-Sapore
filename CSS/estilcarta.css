@@ -79,10 +79,33 @@ body {
   border-radius:10px;
   color: white;
   background-color: black;
-  padding-left: 20px;
+  padding-left: 50px;
+  padding-top: 20px;
 }
 
 a{
   text-decoration: none;
 }
+
+.insta{
+  margin-top: 2px;
+  height:20px;
+width: 20px;
+  float: right;
+  margin-right: 5%;
+}
+.twitter {
+  height:25px;
+width:20px;
+  float: right;
+  margin-right: 1%;
+}
+.face {
+  height:25px;
+width:20px;
+  float: right; 
+  margin-right: 1%;
+  margin-bottom: 25px;
+}
+
 
