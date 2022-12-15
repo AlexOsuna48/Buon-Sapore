@@ -54,23 +54,24 @@ body {
  .insta{
     margin-top: 2px;
     height:20px;
-	width: 20px;
+  width: 20px;
     float: right;
     margin-right: 5%;
-}
-.twitter {
+  }
+  .twitter {
     height:25px;
-	width:20px;
+  width:20px;
     float: right;
     margin-right: 1%;
-}
-.face {
+  }
+  .face {
     height:25px;
-	width:20px;
+  width:20px;
     float: right; 
     margin-right: 1%;
     margin-bottom: 25px;
-}
-
+  }
+  
+  
 
    
